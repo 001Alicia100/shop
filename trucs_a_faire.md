@@ -3,3 +3,4 @@
     -  Carousel : covers the whole page
 - Products page :
     -  Store
+- Footer : About, Contact us et nos infos
