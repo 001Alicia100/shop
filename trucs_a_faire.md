@@ -1,0 +1,5 @@
+- Main page : 
+    -  NavBar : Home - Products - Orders - Users ------ About - Contact
+    -  Carousel : covers the whole page
+- Products page :
+    -  Store
