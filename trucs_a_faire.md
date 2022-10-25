@@ -4,3 +4,5 @@
 - Products page :
     -  Store
 - Footer : About, Contact us et nos infos
+- Links :
+    -  Contact forms : https://adminlte.io/blog/bootstrap-contact-forms/
