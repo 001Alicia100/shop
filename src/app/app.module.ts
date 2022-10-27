@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { CounterComponent } from './counter/counter.component';
+import { ContactformComponent } from './contactform/contactform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWorldComponent,
-    CounterComponent
+    CounterComponent,
+    ContactformComponent
   ],
   imports: [
     BrowserModule,
