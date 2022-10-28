@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "user_id": 4,
+      "products":
+      [{
+        "product_id": 1,
+        "quantity": 100
+      }],
+      "total_price": "1999.00 Є"
+    },
+    {
+      "id": 2,
+      "user_id": 5,
+      "products": 
+      [
+        {
+            "product_id": 3,
+            "quantity": 1
+        },
+        {
+            "product_id": 5,
+            "quantity": 2
+        }
+      ],
+      "total_price": "55.97 Є"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "products": 
+      [
+        {
+            "product_id": 10,
+            "quantity": 1
+        },
+        {
+            "product_id": 8,
+            "quantity": 3
+        },
+        {
+            "product_id": 6,
+            "quantity": 1
+        }
+      ],
+      "total_price": "274.95 Є"
+    }
+  ]

@@ -10,6 +10,8 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { OrdersComponent } from './orders/orders.component';
 import { UsersComponent } from './users/users.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductComponent } from './product/product.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { FooterComponent } from './footer/footer.component';
     ProductListComponent,
     OrdersComponent,
     UsersComponent,
-    FooterComponent
+    FooterComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
