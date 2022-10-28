@@ -1,7 +1,7 @@
 [
   {
     "id":  1,
-    "picture": "./asets/images/1.png",
+    "picture": "../assets/products_images/1.jpg",
     "name": "TVÄRHAND",
     "price": "19.99 Є",
     "description": "Lampe de table",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "picture": "./asets/images/2.png",
+    "picture": "../assets/products_images/2.jpg",
     "name": "TERTIAL",
     "price": "14.99 Є",
     "description": "Lampe de bureau",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "picture": "./asets/images/3.png",
+    "picture": "../assets/products_images/3.jpg",
     "name": "ÅRSTID",
     "price": "29.99 Є",
     "description": "Lampe de bureau",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "picture": "./asets/images/4.png",
+    "picture": "../assets/products_images/4.jpg",
     "name": "ÅSKMULLER",
     "price": "19.99 Є",
     "description": "Lampe de table, 24 cm",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "picture": "./asets/images/5.png",
+    "picture": "../assets/products_images/5.jpg",
     "name": "TÅGARP",
     "price": "12.99 Є",
     "description": "Lampadaire/liseuse",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "picture": "./asets/images/6.png",
+    "picture": "../assets/products_images/6.jpg",
     "name": "SOLKLINT",
     "price": "24.99 Є",
     "description": "Lampe de table, 28 cm",
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "picture": "./asets/images/7.png",
+    "picture": "../assets/products_images/7.jpg",
     "name": "TÄRNABY",
     "price": "24.99 Є",
     "description": "Lampe de table",
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "picture": "./asets/images/8.png",
+    "picture": "../assets/products_images/8.jpg",
     "name": "BÖJA",
     "price": "49.99 Є",
     "description": "Lampe de table",
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "picture": "./asets/images/9.png",
+    "picture": "../assets/products_images/9.jpg",
     "name": "HÅRTE",
     "price": "19.99 Є",
     "description": "Lampe de bureau à LED",
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "picture": "./asets/images/10.png",
+    "picture": "../assets/products_images/10.jpg",
     "name": "LERGRYN / SKAFTET",
     "price": "99.99 Є",
     "description": "Pied lampadaire, arceau noir",

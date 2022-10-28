@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import * as data from '../assets/products_list.json';
 import { Observable } from 'rxjs';
 
 @Injectable({

@@ -1,6 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import * as mat from '@angular/material';
 import { ProductComponent } from '../product/product.component';
 import { ProductsListService } from '../products-list.service';
+
+
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-product-list',
@@ -11,8 +15,11 @@ import { ProductsListService } from '../products-list.service';
 export class ProductListComponent implements OnInit {
 
   products: any;
+  product_detail: any;
+  current = false;
 
-  constructor(private productsListService : ProductsListService ) {  
+
+  constructor(private productsListService : ProductsListService) {  
   }
 
   ngOnInit(): void { 
@@ -20,6 +27,12 @@ export class ProductListComponent implements OnInit {
       this.products = data;
       console.log(data);
     });
+  }
+
+  product_details(product: any): void {
+    this.product_detail = product;
+    console.log(this.product_detail);
+    this.current=true;
   }
 
 }

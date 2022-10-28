@@ -1,0 +1,7 @@
+#dialog-component 
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #3a3a3a;
+}
