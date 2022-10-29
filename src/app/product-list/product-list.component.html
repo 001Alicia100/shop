@@ -33,11 +33,11 @@
       <app-product class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col" *ngFor="let currentProduct of products" [productProp]="currentProduct" (click)="product_details(currentProduct); dialog.showModal();"></app-product>
       
       <dialog #dialog>
-        <div *ngIf="current" class="w-full center ">
-          <app-product [productDetails]="product_detail" [showDetails]="true"></app-product>
+        <div *ngIf="show_details" class="w-full center " class="dialog">
+          <app-product [productDetails]="product_detail" [showDetails]="show_details"></app-product>
         </div>
         <div>
-          <button (click)="dialog.close()">OK</button>
+          <button (click)="dialog.close(); show_details=false">OK</button>
         </div>
       </dialog>
       

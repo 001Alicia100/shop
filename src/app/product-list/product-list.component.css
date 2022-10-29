@@ -1,7 +1,6 @@
-#dialog-component 
+.dialog
 {
-    display: grid;
+    max-width: 650px;
     justify-items: center;
     align-items: center;
-    background-color: #3a3a3a;
 }

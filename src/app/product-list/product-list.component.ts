@@ -16,7 +16,7 @@ export class ProductListComponent implements OnInit {
 
   products: any;
   product_detail: any;
-  current = false;
+  show_details = false;
 
 
   constructor(private productsListService : ProductsListService) {  
@@ -32,7 +32,7 @@ export class ProductListComponent implements OnInit {
   product_details(product: any): void {
     this.product_detail = product;
     console.log(this.product_detail);
-    this.current=true;
+    this.show_details=true;
   }
 
 }
