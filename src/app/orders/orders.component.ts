@@ -10,14 +10,19 @@ import { OrdersListService } from '../orders-list.service';
 export class OrdersComponent implements OnInit {
 
   orders: any;
+  _current_order: any;
 
   constructor(private ordersListService: OrdersListService) { }
 
   ngOnInit(): void {
     this.ordersListService.getJSON().subscribe(data => {
       this.orders = data;
-      console.log(data);
     });
+  }
+
+  public set current_order(order: any)
+  {
+    this._current_order = order;
   }
 
 }

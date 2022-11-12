@@ -5,6 +5,7 @@ import { ContactformComponent } from './contactform/contactform.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { UsersComponent } from './users/users.component';
+import { OrderComponent } from './order/order.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
