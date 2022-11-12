@@ -17,6 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
+import { OrderComponent } from './order/order.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     OrdersComponent,
     UsersComponent,
     FooterComponent,
-    ProductComponent
+    ProductComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,

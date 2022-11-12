@@ -16,7 +16,7 @@ Users:
 photo de nous
 
 Order 
-utilisation user tamplate
+utilisation user template
 on clique, une page apparait avec les produits
 
 contact 
