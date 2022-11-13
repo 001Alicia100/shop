@@ -34,5 +34,11 @@
       "name": "Sully",
       "surname": "Pero",
       "email": "sully.pero@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Puel",
+      "surname": "Démission",
+      "email": "puel.demissions@asse.fr"
     }
   ]
