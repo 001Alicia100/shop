@@ -17,12 +17,10 @@ export class OrderComponent implements OnInit {
 
   ngOnInit(): void {
     this.products = this.orderProp.products;
-    console.log(this.products);
   }
 
   product_details(product: any): void {
     this.product_detail = product;
-    console.log(this.product_detail);
     this.show_details=true;
   }
 

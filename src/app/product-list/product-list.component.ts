@@ -25,13 +25,11 @@ export class ProductListComponent implements OnInit {
   ngOnInit(): void { 
     this.productsListService.getJSON().subscribe(data => {
       this.products = data;
-      console.log(data);
     });
   }
 
   product_details(product: any): void {
     this.product_detail = product;
-    console.log(this.product_detail);
     this.show_details=true;
   }
 
