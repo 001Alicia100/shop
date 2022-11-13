@@ -21,6 +21,7 @@
 .contact-form .form-field {
   position: relative;
   margin: 32px 0;
+  text-align: center;
 }
 .contact-form .input-text {
   display: block;
