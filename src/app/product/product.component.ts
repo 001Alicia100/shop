@@ -22,6 +22,7 @@ export class ProductComponent implements OnInit {
   @Input()
   public set showDetails(show: boolean) {
     this._showDetails = show;
+    this._showNumber = false;
   }
 
   @Input()
