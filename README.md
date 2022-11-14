@@ -10,6 +10,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Orders details :
+## Users list :
 
-You may click on the order's label to show its details.
+The users' emails are already shown, you may click on the user's name to hide his email.
