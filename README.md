@@ -1,4 +1,4 @@
-# MyApp
+# Lampide
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2. To run it, it is required to run an npm install and then ng serve.
 
