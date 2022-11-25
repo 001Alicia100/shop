@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { UsersListService } from '../users-list.service';
 
 @Component({
   selector: 'app-order',
@@ -12,11 +13,16 @@ export class OrderComponent implements OnInit {
   product_detail: any;
   products: any;
   show_details = false;
+  _user: any;
 
-  constructor() { }
+  constructor(private usersListService: UsersListService) { }
 
   ngOnInit(): void {
     this.products = this.orderProp.products;
+    this.usersListService.getJSON().subscribe(data => {
+      this._user = data.find((u: { id: any; }) => u.id == this.orderProp.user_id);
+      console.log(this._user);
+    });
   }
 
   product_details(product: any): void {

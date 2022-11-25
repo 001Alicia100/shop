@@ -3,9 +3,6 @@
 */
 .accordion > input[name="collapse"] {
     display: none;
-    
-    /*position: absolute;
-    left: -100vw;*/
   }
   
   .accordion label,
@@ -33,12 +30,9 @@
   
   /* For Desktop */
   @media only screen {
-  
-  
-  .accordion > input[name="collapse"]:checked ~ .content {
-    height: 40px;
-  }
-  
+    .accordion > input[name="collapse"]:checked ~ .content {
+      height: 40px;
+    }
   }
   
   
@@ -78,12 +72,6 @@
 
   input {
     hidden: true;
-  }
-  
-  .accordion > input[name="collapse"]:checked ~ button {
-      transform: rotate(90deg) translateX(7px) translateY(6px);
-      transform-origin: center;
-      transition: 0.4s;
   }
   
   body {

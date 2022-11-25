@@ -3,9 +3,6 @@ import * as mat from '@angular/material';
 import { ProductComponent } from '../product/product.component';
 import { ProductsListService } from '../products-list.service';
 
-
-import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',

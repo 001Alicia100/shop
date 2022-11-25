@@ -18,6 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { OrderComponent } from './order/order.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { OrderComponent } from './order/order.component';
     UsersComponent,
     FooterComponent,
     ProductComponent,
-    OrderComponent
+    OrderComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
