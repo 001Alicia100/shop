@@ -21,7 +21,6 @@ export class OrderComponent implements OnInit {
     this.products = this.orderProp.products;
     this.usersListService.getJSON().subscribe(data => {
       this._user = data.find((u: { id: any; }) => u.id == this.orderProp.user_id);
-      console.log(this._user);
     });
   }
 
