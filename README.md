@@ -12,4 +12,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Users list :
 
-The users' emails are already shown, you may click on the user's name to hide his email.
+Each user is clickable and it leads to a page where the details of the corresponding user are shown.
